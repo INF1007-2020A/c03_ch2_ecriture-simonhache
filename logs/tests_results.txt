@@ -1,39 +1,16 @@
-test_upper_case_names (__main__.TestExercice) ... FAIL
+test_upper_case_names (__main__.TestExercice) ... ERROR
 
 ======================================================================
-FAIL: test_upper_case_names (__main__.TestExercice)
+ERROR: test_upper_case_names (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_exercice.py", line 21, in test_upper_case_names
-    'Toutes les lettres doivent être en majuscule.'
-AssertionError: Lists differ: ['NORD', 'ALCOOL', 'NERVEUX', 'EXAMEN', 'SA[57 chars]BET'] != ['nord', 'alcool', 'nerveux', 'examen', 'sa[57 chars]bet']
-
-First differing element 0:
-'NORD'
-'nord'
-
-- ['NORD',
--  'ALCOOL',
--  'NERVEUX',
--  'EXAMEN',
--  'SABOT',
--  'UNITÉ',
--  'DIVERTIR',
--  'ASSOCIATION',
--  'PLUIE',
--  'ALPHABET']
-+ ['nord',
-+  'alcool',
-+  'nerveux',
-+  'examen',
-+  'sabot',
-+  'unité',
-+  'divertir',
-+  'association',
-+  'pluie',
-+  'alphabet'] : Toutes les lettres doivent être en majuscule.
+  File "test_exercice.py", line 17, in test_upper_case_names
+    output = list(map(exercice.majuscule, altered_words))
+  File "/home/runner/work/c03_ch2_ecriture-simonhache/c03_ch2_ecriture-simonhache/exercice.py", line 14, in majuscule
+    lettre = chr(New_Lettre)
+UnboundLocalError: local variable 'New_Lettre' referenced before assignment
 
 ----------------------------------------------------------------------
 Ran 1 test in 0.001s
 
-FAILED (failures=1)
+FAILED (errors=1)
