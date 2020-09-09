@@ -6,11 +6,11 @@ ERROR: test_upper_case_names (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 17, in test_upper_case_names
     output = list(map(exercice.majuscule, altered_words))
-  File "/home/runner/work/c03_ch2_ecriture-simonhache/c03_ch2_ecriture-simonhache/exercice.py", line 12, in majuscule
+  File "/home/runner/work/c03_ch2_ecriture-simonhache/c03_ch2_ecriture-simonhache/exercice.py", line 11, in majuscule
     Lettre+= 32
 UnboundLocalError: local variable 'Lettre' referenced before assignment
 
 ----------------------------------------------------------------------
-Ran 1 test in 0.001s
+Ran 1 test in 0.000s
 
 FAILED (errors=1)
