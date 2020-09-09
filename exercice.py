@@ -3,12 +3,11 @@
 def majuscule(mot):
     resultat = ''
     Lettre = ''
-    DecLettre = ''
     for lettre in mot:
-        DecLettre=ord(lettre)
-        if DecLettre <=122 & DecLettre>=97:
+        Lettre=ord(lettre)
+        if Lettre <=122 & DecLettre>=97:
             Lettre-=32
-        elif DecLettre <=90 & Dec_Lettre>=65:
+        elif DecLettre <=90 & DecLettre>=65:
             Lettre+= 32
         else:
             print("Not a letter")
