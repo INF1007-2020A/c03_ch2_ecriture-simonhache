@@ -5,7 +5,7 @@ def majuscule(mot):
     New_Lettre = ''
     Dec_Lettre = ''
     for lettre in mot:
-        Dec_Lettre=(ord(lettre))
+        Dec_Lettre=int(ord(lettre))
         if Dec_Lettre <=122 & Dec_Lettre>=97:
             New_Lettre=str(int(Dec_Lettre)-32)
         elif Dec_Lettre <=90 & Dec_Lettre>=65:
