@@ -11,7 +11,6 @@ def majuscule(mot):
         else:
             print("Pas une lettre")
         resultat += chr(lettre)
-        mot = str(resultat)
     return mot
 
 
