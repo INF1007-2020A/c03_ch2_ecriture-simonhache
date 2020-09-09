@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 def majuscule(mot):
     resultat = ''
-    New_Lettre = ''
     Dec_Lettre = ''
     for lettre in mot:
         Dec_Lettre=ord(lettre)
