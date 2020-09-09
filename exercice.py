@@ -6,8 +6,8 @@ def majuscule(mot):
         Dec_Lettre=ord(lettre)
         if Dec_Lettre <=122 & Dec_Lettre>=97
             New_Lettre=Dec_Lettre-32
-        elseif 
-         
+        elif 
+
         # TODO completer la fonction ici
         
         resultat += lettre
