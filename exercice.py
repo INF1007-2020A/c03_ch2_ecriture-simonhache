@@ -6,7 +6,7 @@ def majuscule(mot):
         Dec_Lettre=ord(lettre)
         if Dec_Lettre <=122 & Dec_Lettre>=97:
             New_Lettre=Dec_Lettre-32
-        elif Dec_Lettre <=122 & Dec_Lettre>=97:
+        elif Dec_Lettre <=90 & Dec_Lettre>=65:
             New_Lettre=Dec_Lettre+32
         # TODO completer la fonction ici
         
