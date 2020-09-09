@@ -5,8 +5,6 @@ def majuscule(mot):
     for lettre in mot:
         lettre=ord(lettre)
             lettre-=32
-        else:
-            print("Pas une lettre")
         resultat += chr(lettre)
     return mot
 
