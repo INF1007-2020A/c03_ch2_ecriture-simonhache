@@ -3,7 +3,7 @@
 def majuscule(mot):
     resultat = ''
     for lettre in mot:
-        ord(lettre)
+        DecLettreord(lettre)
         # TODO completer la fonction ici
         
         resultat += lettre
