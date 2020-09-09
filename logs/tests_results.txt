@@ -8,9 +8,9 @@ Traceback (most recent call last):
     output = list(map(exercice.majuscule, altered_words))
   File "/home/runner/work/c03_ch2_ecriture-simonhache/c03_ch2_ecriture-simonhache/exercice.py", line 14, in majuscule
     lettre = chr(New_Lettre)
-UnboundLocalError: local variable 'New_Lettre' referenced before assignment
+TypeError: an integer is required (got type str)
 
 ----------------------------------------------------------------------
-Ran 1 test in 0.001s
+Ran 1 test in 0.000s
 
 FAILED (errors=1)
