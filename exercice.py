@@ -4,11 +4,11 @@ def majuscule(mot):
     resultat = ''
     Lettre = ''
     for lettre in mot:
-        Lettre=ord(lettre)
-        if Lettre <=122 & Lettre>=97:
-            Lettre-=32
-        elif Lettre <=90 & Lettre>=65:
-            Lettre+= 32
+        lettre=ord(lettre)
+        if lettre <=122 & Lettre>=97:
+            lettre-=32
+        elif lettre <=90 & Lettre>=65:
+            lettre+= 32
         else:
             print("Not a letter")
         resultat += lettre
