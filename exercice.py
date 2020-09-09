@@ -10,7 +10,7 @@ def majuscule(mot):
         elif Dec_Lettre <=90 & Dec_Lettre>=65:
             New_Lettre=Dec_Lettre+32
 
-        lettre = ch
+        lettre = chr(New)
         resultat += lettre
     return mot
 
