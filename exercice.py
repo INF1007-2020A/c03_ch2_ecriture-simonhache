@@ -7,9 +7,9 @@ def majuscule(mot):
     for lettre in mot:
         Dec_Lettre=ord(lettre)
         if Dec_Lettre <=122 & Dec_Lettre>=97:
-            New_Lettre=char(int(Dec_Lettre)-32)
+            New_Lettre=str(int(Dec_Lettre)-32)
         elif Dec_Lettre <=90 & Dec_Lettre>=65:
-            New_Lettre=char(int(Dec_Lettre)+32)
+            New_Lettre=str(int(Dec_Lettre)+32)
         else:
             print("Not a letter")
         lettre = chr(New_Lettre)
