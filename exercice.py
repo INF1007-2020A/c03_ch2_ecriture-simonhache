@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 def majuscule(mot):
     resultat = ''
-    lettre = ''
     for lettre in mot:
         lettre=ord(lettre)
         if lettre <=122 & lettre>=97:
