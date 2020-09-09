@@ -6,9 +6,9 @@ ERROR: test_upper_case_names (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 17, in test_upper_case_names
     output = list(map(exercice.majuscule, altered_words))
-  File "/home/runner/work/c03_ch2_ecriture-simonhache/c03_ch2_ecriture-simonhache/exercice.py", line 13, in majuscule
-    resultat += lettre
-TypeError: must be str, not int
+  File "/home/runner/work/c03_ch2_ecriture-simonhache/c03_ch2_ecriture-simonhache/exercice.py", line 14, in majuscule
+    mot = chr(resultat)
+TypeError: an integer is required (got type str)
 
 ----------------------------------------------------------------------
 Ran 1 test in 0.001s
