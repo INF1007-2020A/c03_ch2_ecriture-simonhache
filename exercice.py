@@ -4,7 +4,7 @@ def majuscule(mot):
     resultat = ''
     for lettre in mot:
         Dec_Lettre=ord(lettre)
-        if Dec_Lettre <
+        if Dec_Lettre <=122 & Dec
         # TODO completer la fonction ici
         
         resultat += lettre
