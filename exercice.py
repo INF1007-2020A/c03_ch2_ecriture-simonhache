@@ -10,7 +10,7 @@ def majuscule(mot):
         elif lettre <=90 & lettre>=65:
             lettre+= 32
         else:
-            print("Not a letter")
+            print("Pas une lettre")
         resultat += lettre
         
     return mot
