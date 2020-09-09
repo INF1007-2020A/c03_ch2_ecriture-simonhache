@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 def majuscule(mot):
     resultat = ''
-    Lettre = ''
+    lettre = ''
     for lettre in mot:
         lettre=ord(lettre)
-        if lettre <=122 & Lettre>=97:
+        if lettre <=122 & lettre>=97:
             lettre-=32
-        elif lettre <=90 & Lettre>=65:
+        elif lettre <=90 & lettre>=65:
             lettre+= 32
         else:
             print("Not a letter")
